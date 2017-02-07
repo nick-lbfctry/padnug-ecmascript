@@ -7,9 +7,9 @@ let last = 'Muhonen';
 
 if (true) {
   let first = 'Izzie';
-  console.log(first);
-  console.log(last);
+  show('first in block',first);
+  show('last in block',last);
 }
 
-console.log(first);
-console.log(last);
+show('first outside block',first);
+show('last outside block',last);

@@ -12,4 +12,4 @@ const proxy = new Proxy(target, {
 });
 
 show('proxy.foo', proxy.foo);
-show('proxy.world', proxy.world);
+show('proxy.world', proxy.foo);

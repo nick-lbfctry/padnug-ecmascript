@@ -21,3 +21,16 @@ const literal = {
 
 literal.doit();
 
+/************************************ */
+/**/ topic('simple transformation');
+/************************************ */
+
+const toPerson = (first,last,haircolor) => ({
+  first,
+  last,
+  haircolor
+});
+
+const combined = toPerson('Nick','Muhonen','Brown');
+show('result',combined);
+

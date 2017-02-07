@@ -16,7 +16,6 @@ repeatSomeText('Hello Padnug', 5);
 /**/ topic('default parameters with object literal');
 /************************************ */
 
-
 const repeatSomeTextAgain = ({someText = 'NoneProvided', times = 2} = {}) => {
   for(let i = 0; i < times; i++) {
     console.log(`${i+1}: ${someText}`);
