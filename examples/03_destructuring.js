@@ -1,20 +1,22 @@
-// destructuring array
+/************************************ */
+/**/ topic('destructuring arrays');
+/************************************ */
 
 const array = [1,2,3,4,5,6];
 const [firstItem,secondItem,...rest] = array;
-console.log('In Array:');
-console.log(firstItem);
-console.log(secondItem);
-console.log(rest);
+show('firstItem',firstItem);
+show('secondItem',secondItem);
+show('rest',rest);
 
-// destructuring literals
+/************************************ */
+/**/ topic('destructuring literals');
+/************************************ */
 
-console.log('In Literal:');
 const literal = {
   first: 'Nick',
   last: 'Muhonen'
 };
 const {first, last, hairColor = 'brown'} = literal;
-console.log(first);
-console.log(last);
-console.log(hairColor);
+show('first',first);
+show('last',last);
+show('hairColot',hairColor);

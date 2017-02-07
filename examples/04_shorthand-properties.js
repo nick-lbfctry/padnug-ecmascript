@@ -1,4 +1,6 @@
-//shorthand properties
+/************************************ */
+/**/ topic('shorthand properties');
+/************************************ */
 
 const first = 'Nick';
 const last = 'Muhonen';
@@ -8,4 +10,4 @@ const person = {
   last
 };
 
-console.log(person);
+show('result',person);

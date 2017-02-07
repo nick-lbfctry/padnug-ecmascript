@@ -1,16 +1,18 @@
-// const
+/************************************ */
+/**/ topic('const examples');
+/************************************ */
 
 const first = 'Nick';
 const last = 'Muhonen';
 
 if (true) {
   const first = 'Izzie';
-  console.log(first);
-  console.log(last);
+  show('first in block',first);
+  show('last in block',last);
 }
 
-console.log(first);
-console.log(last);
+show('first out of block', first);
+show('last out of block', last);
 
 //this breaks
 //first = 'Izzie'

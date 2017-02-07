@@ -1,15 +1,31 @@
-// computed properties
+/************************************ */
+/**/ topic('default parameters');
+/************************************ */
 
-const prop1 = 'prop1';
-const prop2 = 'prop2';
-
-const literal = {
-  [prop1]: 'one',
-  [prop2]: 'two',
-  [prop1+prop2]: 'combined'
+const repeatSomeText = (someText, times = 2) => {
+  for(let i = 0; i < times; i++) {
+    console.log(`${i+1}: ${someText}`);
+  }
+  console.log('-------');
 };
 
-console.log(literal);
+repeatSomeText('Hello Padnug');
+repeatSomeText('Hello Padnug', 5);
+
+/************************************ */
+/**/ topic('default parameters with object literal');
+/************************************ */
+
+const repeatSomeTextAgain = ({someText = 'NoneProvided', times = 2} = {}) => {
+  for(let i = 0; i < times; i++) {
+    console.log(`${i+1}: ${someText}`);
+  }
+  console.log('-------');
+};
+
+repeatSomeTextAgain();
+repeatSomeTextAgain({someText: 'Hello PADNUG'});
+repeatSomeTextAgain({someText: 'Hello PADNUG', times: 4});
 
 // console.log(name);
 

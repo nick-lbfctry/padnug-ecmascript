@@ -1,4 +1,6 @@
-// computed properties
+/************************************ */
+/**/ topic('computed properties');
+/************************************ */
 
 const prop1 = 'prop1';
 const prop2 = 'prop2';
@@ -9,4 +11,4 @@ const literal = {
   [prop1+prop2]: 'combined'
 };
 
-console.log(literal);
+show('result',literal);
