@@ -23,7 +23,7 @@ $ npm install
 * From the repo dir, start the demo web server
 
 ```
-$npm start demo
+$ npm start demo
 ```
 
 * open a browser to localhost:8080
