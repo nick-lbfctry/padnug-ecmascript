@@ -1,22 +1,27 @@
-<script>
-  window.topic = (string) => {
-    console.log('');
-    console.log(Array(string.length + 5).join('*'));
-    console.log('* ' + string + ' *');
-    console.log(Array(string.length + 5).join('*'));
-    console.log('');
+<html>
+<head>
+  <script>
+    window.topic = (string) => {
+      console.log('');
+      console.log(Array(string.length + 5).join('*'));
+      console.log('* ' + string + ' *');
+      console.log(Array(string.length + 5).join('*'));
+      console.log('');
+    };
+
+  window.show = (string, ...args) => {
+      console.log(string + ':');
+      console.log(Array(string.length + 2).join('-'));
+      args.forEach(arg => {
+        console.log(arg);
+      });
+      console.log('');
   };
 
- window.show = (string, ...args) => {
-    console.log(string + ':');
-    console.log(Array(string.length + 2).join('-'));
-    args.forEach(arg => {
-      console.log(arg);
-    });
-    console.log('');
- };
-
-</script>
-
-
-<script src="index.bundle.js"></script>
+  </script>
+  <script src="index.bundle.js"></script>
+</head>
+<body>
+  Open up a browser console to view demo results.
+</body>
+</html>
