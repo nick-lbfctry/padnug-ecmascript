@@ -3,4 +3,4 @@
 /************************************ */
 
 //copy contents of files in examples directory here
-show("Ready");
+show("Ready",{ready:true});
