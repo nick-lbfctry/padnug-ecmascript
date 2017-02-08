@@ -32,5 +32,5 @@ $ webpack-dev-server
 
 * open a browser to localhost:8080
 * open a console on the browser.
-* copy contents of example file to main (ie examples/01_let.js)
+* copy contents of example file to src/main.js (ie examples/01_let.js)
 * for example 18, copy webpack.babel.config.js to webpack.config.js
