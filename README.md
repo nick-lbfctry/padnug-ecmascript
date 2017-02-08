@@ -17,7 +17,7 @@
 * install webpack
 ```
 $ npm install -g webpack
-$ npm install -g wepack-dev-server
+$ npm install -g webpack-dev-server
 ```
 
 * in a terminal run from the repo root directory
