@@ -3,7 +3,7 @@
 ## About
 * Ecmascript has come quite away over the years
 * Evergreen Browsers are getting caught up with Ecmascript 2015 (Check out https://kangax.github.io/compat-table/es6/)
-* Somethings are not there yet (standard modules ¯\_(ツ)_/¯ )
+* Somethings are not there yet (standard modules ¯\\_(ツ)_/¯ )
 * This repo contains demos exploring these concepts
 
 ## Demo Caveats
