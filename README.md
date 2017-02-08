@@ -26,7 +26,7 @@ $ npm install
 $ npm run demo
 ```
 
-* open a browser to http://localhost:8080
+* open a browser to [http://localhost:8080]
 * open a console on the browser.
 * copy contents of example file to src/main.js (ie examples/01_let.js)
 * for example 18, copy webpack.babel.config.js to webpack.config.js
