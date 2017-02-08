@@ -14,14 +14,18 @@
 ## To show demos
 * install npm
 * in a terminal run from the repo root directory
+
 `
 $ npm install -g webpack wepack-dev-server
 $ npm install
 `
+
 * run webpack-dev-server from cli
+
 `
 $ webpack-dev-server
 `
+
 * open a browser to localhost:8080
 * open a console on the browser.
 * copy contents of example file to main (ie examples/01_let.js)
