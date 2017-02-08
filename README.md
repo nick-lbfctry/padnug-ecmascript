@@ -14,22 +14,16 @@
 
 ## How To Run Sample Code
 * install npm
-* install webpack
-```
-$ npm install -g webpack
-$ npm install -g webpack-dev-server
-```
-
-* in a terminal run from the repo root directory
+* From the repo dir, install the npm depeendencies 
 
 ```
 $ npm install
 ```
 
-* run webpack-dev-server from cli
+* From the repo dir, start the demo web server
 
 ```
-$ webpack-dev-server
+$npm start demo
 ```
 
 * open a browser to localhost:8080
