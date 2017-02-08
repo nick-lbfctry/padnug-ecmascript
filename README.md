@@ -13,10 +13,14 @@
 
 ## To show demos
 * install npm
+* install webpack
+```
+$ npm install -g webpack wepack-dev-server
+```
+
 * in a terminal run from the repo root directory
 
 ```
-$ npm install -g webpack wepack-dev-server
 $ npm install
 ```
 
